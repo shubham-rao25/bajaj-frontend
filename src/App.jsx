@@ -20,7 +20,7 @@ function App() {
     try {
       const parsedData = JSON.parse(jsonInput);
       const response = await axios.post(
-        "http://localhost:8080/bfhl",
+        "https://bajaj-backend-50a3.onrender.com/bfhl",
         parsedData
       ); // Adjust the URL as needed
       setResponseData(response.data);
