@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Textarea styles */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Button styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown and response styles */
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.Select__control {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.Select__menu {
+  border-radius: 4px;
+}
+
+.Select__control--is-focused {
+  box-shadow: 0 0 0 1px #007bff;
+}
+
+div {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #555;
+}
+
+strong {
+  color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  textarea {
+    font-size: 14px;
+  }
+}
